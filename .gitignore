@@ -1,0 +1,57 @@
+# ==========================
+# Entornos virtuales Python
+# ==========================
+.venv/
+venv/
+env/
+
+# ==========================
+# Archivos generados por Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==========================
+# Jupyter notebooks
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Caches de herramientas
+# ==========================
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ==========================
+# Archivos de entorno y credenciales
+# ==========================
+.env
+
+# ==========================
+# Datos
+# ==========================
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# ==========================
+# Figuras generadas
+# ==========================
+reports/figures/*
+!reports/figures/.gitkeep
+
+# ==========================
+# Sistema operativo
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
