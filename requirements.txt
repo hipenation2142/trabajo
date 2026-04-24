@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+scipy
+statsmodels
+scikit-learn
+lightgbm
+catboost
+mapie
+skforecast
+jupyter
+ipykernel
+pyarrow
+python-dotenv
+tqdm
+joblib
