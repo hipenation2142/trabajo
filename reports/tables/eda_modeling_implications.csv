@@ -1,0 +1,7 @@
+eda_finding,modeling_implication
+Ciclo horario marcado,Incluir variables de hora y retardos de corto plazo.
+Estacionalidad mensual,Incluir variables de mes o codificación cíclica anual.
+Diferencias entre laborables y fines de semana,Incluir día de la semana como variable predictiva.
+Autocorrelación alta en retardos cortos,"Considerar lags como 1, 2, 3, 6 y 12 horas."
+Autocorrelación relevante en 24 y 168 horas,Justificar el modelo base ingenuo estacional y considerar lags diarios/semanales.
+Valores ausentes concentrados en ciertos meses,Definir una estrategia de tratamiento de ausentes antes del entrenamiento.
