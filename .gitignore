@@ -49,8 +49,8 @@ data/processed/*
 # ==========================
 
 # Figuras exploratorias o generadas automáticamente.
-reports/figures/generated/*
-!reports/figures/generated/.gitkeep
+# reports/figures/generated/*
+# !reports/figures/generated/.gitkeep
 
 # Figuras finales usadas en la memoria.
 
