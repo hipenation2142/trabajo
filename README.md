@@ -1,4 +1,4 @@
-# TFG - Predicción horaria de O3 en el distrito del Eixample de Barcelona
+# TFG - Predicción horaria de ozono troposférico (O3) en el distrito del Eixample de Barcelona
 
 Este es un repositorio temporal de desarrollo de mi Trabajo de Fin de Grado sobre la predicción horaria de ozono troposférico (O3) en la estación del Eixample de Barcelona.
 
