@@ -1,6 +1,6 @@
 """Comprobación básica del entorno de desarrollo del TFG.
 
-Este script permite verificra que las librerías principales se importan correctamente
+Este script permite verificar que las librerías principales se importan correctamente
 y, también que la estructura mínima del repositorio ya está creada (y, por tanto, disponible).
 
 Se debe ejecutar desde la raíz del proyecto mediante:
