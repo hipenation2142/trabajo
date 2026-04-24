@@ -4,7 +4,7 @@ Esta carpeta contiene la versión bruta del conjunto de datos que se utiliza com
 
 ## Nombre del conjunto de datos
 
-`Eixample_03_2020_2025.csv`
+`Eixample_O3_2020_2025.csv`
 
 ## Descripción
 
