@@ -37,7 +37,7 @@ __pycache__/
 # Se ignoran por defecto los datos brutos, salvo el dataset con las medidas de O3 y el README que documenta su procedencia.
 data/raw/*
 !data/raw/.gitkeep
-!data/raw/Eixample_03_2020_2025.csv
+!data/raw/Eixample_O3_2020_2025.csv
 !data/raw/README.md
 
 # Los datos procesados se vuelven a generar.
