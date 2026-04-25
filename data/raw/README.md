@@ -33,4 +33,4 @@ De ser necesario realizar transformaciones para el análisis del conjunto de dat
 
 Para poder comprobar la versión exacta del archivo usado en el proyecto, se incluye a continuación su hash SHA256:
 
-`SHA256: 06160D9DCB25C065A465E6FBE585638BC5C1B5A8E54510BB96255B1E7B2265BF`
+`SHA256: 2C80695EB869DB2360F6C44FA81C1F2ABC9F83A217688FBAC9B498EA3059F276`

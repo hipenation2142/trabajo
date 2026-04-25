@@ -12,7 +12,7 @@ Este archivo se obtiene ejecutando:
 
 ## Descripción
 
-El archivo `o3_hourly.parquet` contiene la serie horaria de O3 transformada desde el formato diario ancho `h01`-`h24` del CSV bruto.
+El archivo `o3_hourly.parquet` contiene la serie horaria base de O3 transformada desde el formato diario ancho `h01`-`h24` del CSV bruto.
 
 La variable objetivo se conserva en la columna `o3`, expresada en las unidades originales del archivo fuente.
 
@@ -20,11 +20,17 @@ La variable objetivo se conserva en la columna `o3`, expresada en las unidades o
 
 - El CSV bruto no se modifica.
 - La serie se transforma a frecuencia horaria regular.
-- Se comprueba continuidad temporal y duplicados.
+- Se comprueba continuidad temporal y ausencia de duplicados.
 - Los valores no convertibles a número se consideran ausentes.
 - Los valores negativos de O3, si aparecieran, se marcarían como ausentes.
+- Los valores ausentes de O3 se conservan como `NaN`.
+- No se imputa la variable objetivo en esta fase.
 - No se eliminan valores altos automáticamente, ya que pueden corresponder a episodios reales.
-- No se imputa la variable objetivo para construir el dataset procesado.
+- La posible imputación de huecos cortos se evaluará únicamente como análisis de sensibilidad en la fase de construcción de datasets supervisados.
+
+## Salida de esta fase
+
+El archivo `o3_hourly.parquet` se considera el dataset horario base definitivo para la EDA y la posterior ingeniería de características.
 
 ## Reproducibilidad
 
