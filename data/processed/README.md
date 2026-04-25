@@ -1,8 +1,6 @@
 # Datos procesados
 
-Esta carpeta contiene archivos generados a partir del dataset bruto de O3.
-
-## Archivo principal generado localmente
+## Serie horaria temporal base
 
 `o3_hourly.parquet`
 
@@ -12,21 +10,20 @@ Este archivo se obtiene ejecutando:
 
 ## Descripción
 
-El archivo `o3_hourly.parquet` contiene la serie horaria base de O3 transformada desde el formato diario ancho `h01`-`h24` del CSV bruto.
+El archivo `o3_hourly.parquet` contiene la serie horaria base de O3 transformada desde el formato diario ancho `h01`-`h24` del conjunto de datos bruto.
 
 La variable objetivo se conserva en la columna `o3`, expresada en las unidades originales del archivo fuente.
 
 ## Decisiones de depuración
 
-- El CSV bruto no se modifica.
-- La serie se transforma a frecuencia horaria regular.
-- Se comprueba continuidad temporal y ausencia de duplicados.
-- Los valores no convertibles a número se consideran ausentes.
-- Los valores negativos de O3, si aparecieran, se marcarían como ausentes.
-- Los valores ausentes de O3 se conservan como `NaN`.
-- No se imputa la variable objetivo en esta fase.
-- No se eliminan valores altos automáticamente, ya que pueden corresponder a episodios reales.
-- La posible imputación de huecos cortos se evaluará únicamente como análisis de sensibilidad en la fase de construcción de datasets supervisados.
+- El conjunto de datos bruto no se ha modificado.
+- La serie se transformó a frecuencia horaria regular.
+- Se comprobó la continuidad temporal de la serie y la ausencia de duplicados.
+- Los valores no convertibles a un número se consideraron ausentes.
+- Los valores negativos de O3, en caso de existir, se marcaron como ausentes.
+- Los valores ausentes de O3, a su vez, se registraron como `NaN`.
+- No se eliminaron los valores extremos, ya que podrían corresponderse con episodios meteorológicos reales.
+- La posible imputación de huecos cortos se evaluará únicamente como análisis de sensibilidad en la fase de construcción de - Se decidión no imputar los huecos detectados en la serie inicialmente, a fin de no introducir sesgos en los posteriores entrenamientos de modelos.
 
 ## Salida de esta fase
 
@@ -34,7 +31,7 @@ El archivo `o3_hourly.parquet` se considera el dataset horario base definitivo p
 
 ## Reproducibilidad
 
-El archivo procesado no se versiona porque puede regenerarse a partir de:
+El archivo procesado puede regenerarse a partir de:
 
 - `data/raw/Eixample_O3_2020_2025.csv`
 - `notebooks/00_data_preparation_o3.ipynb`
