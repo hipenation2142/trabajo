@@ -1,0 +1,17 @@
+metric,value
+raw_daily_records,2192
+raw_columns,40
+start_timestamp,2020-01-01 00:00:00
+end_timestamp,2025-12-31 23:00:00
+expected_hourly_records,52608
+processed_hourly_records,52608
+missing_timestamps,0
+duplicated_timestamps,0
+missing_o3_values,1666
+missing_o3_percentage,3.1668187347931873
+invalid_negative_o3_values,0
+min_o3,1.0
+max_o3,167.0
+mean_o3,45.715499980369835
+median_o3,47.0
+std_o3,25.724391666232663

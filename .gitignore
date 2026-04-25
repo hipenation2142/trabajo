@@ -43,6 +43,7 @@ data/raw/*
 # Los datos procesados se vuelven a generar.
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/README.md
 
 # ==========================
 # Figuras
