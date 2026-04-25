@@ -19,8 +19,8 @@ La variable objetivo se conserva en la columna `o3`, expresada en las unidades o
 - El conjunto de datos bruto no se ha modificado.
 - La serie se transformó a frecuencia horaria regular.
 - Se comprobó la continuidad temporal de la serie y la ausencia de duplicados.
-- Los valores no convertibles a un número se consideraron ausentes.
-- Los valores negativos de O3, en caso de existir, se marcaron como ausentes.
+- Los valores no convertibles a un número se registraron como `NaN.
+- Los valores negativos de O3, en caso de existir, se marcaron como `NaN`.
 - Los valores ausentes de O3, a su vez, se registraron como `NaN`.
 - No se eliminaron los valores extremos, ya que podrían corresponderse con episodios meteorológicos reales.
 - La posible imputación de huecos cortos se evaluará únicamente como análisis de sensibilidad en la fase de construcción de - Se decidión no imputar los huecos detectados en la serie inicialmente, a fin de no introducir sesgos en los posteriores entrenamientos de modelos.
