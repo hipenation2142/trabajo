@@ -1,0 +1,17 @@
+processed_column,description
+timestamp,Marca temporal horaria.
+o3,Concentración horaria observada de O3.
+station_code,Código oficial de la estación.
+station_name,Nombre de la estación.
+pollutant_code,Código numérico del contaminante en la fuente.
+pollutant,Contaminante medido.
+units,Unidades de medida.
+station_type,Tipo de estación.
+urban_area,Tipo de área urbana.
+ine_code,Código INE del municipio.
+municipality,Municipio de la estación.
+county_code,Código de comarca.
+county_name,Nombre de comarca.
+altitude,Altitud de la estación.
+latitude,Latitud de la estación.
+longitude,Longitud de la estación.
