@@ -14,6 +14,29 @@ El archivo `o3_hourly.parquet` contiene la serie horaria base de O3 transformada
 
 La variable objetivo se conserva en la columna `o3`, expresada en las unidades originales del archivo fuente.
 
+El conjunto de datos bruto conserva los nombres originales de las columnas. Por su parte, el conjunto de datos procesado utiliza un esquema interno en inglés para facilitar el desarrollo del pipeline, la ingeniería de características y la posterior explicabilidad.
+
+## Esquema de columnas
+
+| Columna | Descripción |
+|---|---|
+| `timestamp` | Marca temporal horaria. |
+| `o3` | Concentración horaria observada de ozono troposférico (O3). |
+| `station_code` | Código identificativo de la estación. |
+| `station_name` | Nombre de la estación. |
+| `pollutant_code` | Código numérico del gas contaminante medido. |
+| `pollutant` | Gas contaminante medido. |
+| `units` | Unidades de medida. |
+| `station_type` | Tipo de estación. |
+| `urban_area` | Tipo de área urbana. |
+| `ine_code` | Código INE del municipio. |
+| `municipality` | Municipio de la estación. |
+| `county_code` | Código de la comarca. |
+| `county_name` | Nombre de la comarca. |
+| `altitude` | Altitud de la estación. |
+| `latitude` | Latitud de la estación. |
+| `longitude` | Longitud de la estación. |
+
 ## Decisiones de depuración
 
 - El conjunto de datos bruto no se ha modificado.
