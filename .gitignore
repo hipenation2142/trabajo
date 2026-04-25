@@ -56,6 +56,12 @@ data/processed/*
 # Figuras finales usadas en la memoria.
 
 # ==========================
+# Notebooks
+# ==========================
+
+notebooks/antiguo/*
+
+# ==========================
 # Sistema operativo
 # ==========================
 .DS_Store

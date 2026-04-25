@@ -1,0 +1,10 @@
+figure_id,filename,title,main_message,suggested_memory_section
+EDA-01,fig_eda_01_temporal_overview.png,Evolución temporal de O3 y partición cronológica,La serie presenta variabilidad horaria y una evolución temporal que justifica la partición cronológica.,Datos y evolución temporal
+EDA-02,fig_eda_02_missingness_year_month.png,Valores ausentes de O3 por año y mes,"Los valores ausentes son moderados, pero no completamente uniformes en el tiempo.",Calidad del dato
+EDA-03,fig_eda_03_o3_distribution.png,Distribución global de O3,La distribución muestra valores altos que se documentan y se conservan como episodios plausibles.,Distribución general
+EDA-04,fig_eda_04_seasonality_boxplots.png,"Estacionalidad mensual, horaria y semanal",La serie presenta patrones estacionales que justifican variables temporales.,Estacionalidad
+EDA-05,fig_eda_05_month_hour_p90_heatmap.png,Percentil 90 de O3 por mes y hora,Los valores altos dependen de la combinación entre mes y hora del día.,Estacionalidad y episodios altos
+EDA-06,fig_eda_06_acf_lags.png,Autocorrelación de O3 hasta 7 días,"La autocorrelación justifica lags cortos, diarios y semanales.",Autocorrelación
+EDA-07,fig_eda_07_baseline_residuals.png,Residuos del baseline diario,Los residuos muestran desviaciones respecto a la normalidad y motivan intervalos no paramétricos/conformes.,Baseline e incertidumbre
+EDA-08,fig_eda_08_baseline_error_by_hour.png,Error absoluto del baseline por hora,"El error varía según la hora, lo que sugiere heterocedasticidad temporal.",Heterocedasticidad
+EDA-09,fig_eda_09_interannual_overlay.png,Evolución anual superpuesta,La comparación interanual permite estudiar la posible singularidad descriptiva de 2020.,Drift y comparación interanual
