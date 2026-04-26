@@ -1,4 +1,4 @@
-figure_id,filename,title,main_message
+figure_id,filename,title,conclusion
 EDA-01,fig_eda_01_temporal_overview.png,Evolución temporal de O3 y partición cronológica,La serie presenta variabilidad horaria y una evolución temporal que justifica la partición cronológica.
 EDA-02,fig_eda_02_missingness_year_month.png,Valores ausentes de O3 por año y mes,"Los valores ausentes son moderados, pero no completamente uniformes en el tiempo."
 EDA-03,fig_eda_03_o3_distribution.png,Distribución global de O3,La distribución muestra que se alcanzan valores de cierta importancia pero no excesivamente elevados.
