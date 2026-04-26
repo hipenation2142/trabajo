@@ -1,6 +1,6 @@
 # Datos procesados
 
-## Serie horaria temporal base
+## Serie horaria base
 
 `o3_hourly.parquet`
 
@@ -44,9 +44,8 @@ El conjunto de datos bruto conserva los nombres originales de las columnas. Por 
 - Se comprobó la continuidad temporal de la serie y la ausencia de duplicados.
 - Los valores no convertibles a un número se registraron como `NaN`.
 - Los valores negativos de O3, en caso de existir, se marcaron como `NaN`.
-- Los valores ausentes de O3, a su vez, se registraron como `NaN`.
+- Los valores ausentes de O3, a su vez, se registraron como `NaN`. Se decidió no imputar los huecos detectados en la serie a fin de no introducir sesgos en los posteriores entrenamientos de modelos o su evaluación.
 - No se eliminaron los valores extremos, ya que podrían corresponderse con episodios meteorológicos reales.
-- Se decidió no imputar los huecos detectados en la serie inicialmente, a fin de no introducir sesgos en los posteriores entrenamientos de modelos.
 
 ## Salida de esta fase
 
