@@ -5,6 +5,7 @@ EDA-03,fig_eda_03_o3_distribution.png,Distribución global de O3,La distribució
 EDA-04,fig_eda_04_seasonality_boxplots.png,"Estacionalidad mensual, semanal y horaria",La serie presenta patrones estacionales que justifica el uso de variables temporales.
 EDA-05,fig_eda_05_month_hour_p90_heatmap.png,Percentil 90 de O3 por mes y hora,Se muestra la importancia que la combinación entre mes y hora del día tiene a la hora de predecir una concentración elevada de O3.
 EDA-06,fig_eda_06_acf_lags.png,Autocorrelación de O3 para retardos de hasta 168 horas (7 días),"La autocorrelación justifica lautilización de retardos cortos, diarios y semanales."
-EDA-07,fig_eda_07_baseline_residuals.png,Diagnóstico de los residuos de la referencia estacional diaria,Los residuos muestran desviaciones respecto a la normalidad y motivan el uso de intervalos de predicción.
-EDA-08,fig_eda_08_baseline_error_by_hour.png,Error absoluto de la referencia estacional diaria,"El error varía según la hora, lo que sugiere heterocedasticidad temporal."
-EDA-09,fig_eda_09_interannual_overlay.png,Perfil anual suavizado del O3,La comparación interanual permite estudiar la potencial singularidad del año 2020.
+EDA-07,fig_eda_07_diff24_correlograms.png,Correlogramas de la serie diferenciada respecto al día anterior,La ACF y la PACF de la serie diferenciada muestran qué dependencia temporal permanece tras reducir el ciclo diario dominante.
+EDA-08,fig_eda_08_baseline_residuals.png,Diagnóstico de los residuos de la referencia estacional diaria,Los residuos muestran desviaciones respecto a la normalidad y motivan el uso de intervalos de predicción.
+EDA-09,fig_eda_09_baseline_error_by_hour.png,Error absoluto de la referencia estacional diaria,"El error varía según la hora, lo que sugiere heterocedasticidad temporal."
+EDA-10,fig_eda_10_interannual_overlay.png,Perfil anual suavizado del O3,La comparación interanual permite estudiar la potencial singularidad del año 2020.
