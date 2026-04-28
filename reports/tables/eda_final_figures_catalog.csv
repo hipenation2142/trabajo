@@ -1,11 +1,9 @@
 figure_id,filename,title,conclusion
-EDA-01,fig_eda_01_temporal_overview.png,Evolución temporal de O3 y partición cronológica,La serie presenta variabilidad horaria y una evolución temporal que justifica la partición cronológica.
-EDA-02,fig_eda_02_missingness_year_month.png,Valores ausentes de O3 por año y mes,"Los valores ausentes son moderados, pero no completamente uniformes en el tiempo."
-EDA-03,fig_eda_03_o3_distribution.png,Distribución global de O3,La distribución muestra que se alcanzan valores de cierta importancia pero no excesivamente elevados.
-EDA-04,fig_eda_04_seasonality_boxplots.png,"Estacionalidad mensual, semanal y horaria",La serie presenta patrones estacionales que justifican el uso de variables temporales.
+EDA-01,fig_eda_01_temporal_overview.png,Evolución temporal de O3 y partición cronológica,"La serie presenta variabilidad horaria, estructura estacional y diferencias entre bloques cronológicos."
+EDA-02,fig_eda_02_missingness_year_month.png,Valores ausentes de O3 por año y mes,"Los valores ausentes son moderados, pero no se distribuyen de forma completamente uniforme en el tiempo."
+EDA-03,fig_eda_03_o3_distribution.png,Distribución de la concentración horaria de O3,"La distribución presenta muchos valores bajos, un cuerpo central amplio y una cola derecha asociada a episodios elevados."
+EDA-04,fig_eda_04_seasonality_boxplots.png,"Estacionalidad mensual, semanal y horaria","La serie presenta patrones mensuales y horarios claros, y un patrón semanal más suave."
 EDA-05,fig_eda_05_month_hour_p90_heatmap.png,Percentil 90 de O3 por mes y hora,Se muestra la importancia que la combinación entre mes y hora del día tiene a la hora de predecir una concentración elevada de O3.
-EDA-06,fig_eda_06_acf_lags.png,Autocorrelación de O3 para retardos de hasta 168 horas (7 días),"La autocorrelación justifica la utilización de retardos cortos, diarios y semanales."
-EDA-07,fig_eda_07_diff24_correlograms.png,Correlogramas de la serie diferenciada respecto al día anterior,La ACF y la PACF de la serie diferenciada muestran qué dependencia temporal permanece tras reducir el ciclo diario dominante.
-EDA-08,fig_eda_08_baseline_residuals.png,Diagnóstico de los residuos de la referencia estacional diaria,Los residuos muestran desviaciones respecto a la normalidad y motivan el uso de intervalos de predicción.
-EDA-09,fig_eda_09_baseline_error_by_hour.png,Error absoluto de la referencia estacional diaria,"El error varía según la hora, lo que sugiere heterocedasticidad temporal."
-EDA-10,fig_eda_10_interannual_overlay.png,Perfil anual suavizado del O3,La comparación interanual permite estudiar la potencial singularidad del año 2020.
+EDA-06,fig_eda_06_acf_lags.png,Autocorrelación de O3 para retardos de hasta 168 horas,La autocorrelación justifica la utilización de retardos recientes y diarios; el retardo semanal puede valorarse como candidato adicional.
+EDA-07,fig_eda_07_diff24_correlograms.png,Correlogramas de la serie diferenciada respecto al día anterior,"La ACF de la serie diferenciada muestra autocorrelación elevada para el retardo de 1 hora; la PACF, además, en los retardos próximos a múltiplos de 24 horas."
+EDA-08,fig_eda_08_interannual_overlay.png,Comparación interanual de los perfiles anuales de O3,"El perfil de 2020 no queda aislado respecto al resto de años, lo que apuntala la inclusión de 2020 en el conjunto de entrenamiento."
