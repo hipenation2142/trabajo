@@ -1,0 +1,5 @@
+horizon,n_features,n_train,n_validation,model_path,train_target_min,train_target_max,validation_target_min,validation_target_max
+1,21,25516,8437,models\linear_regression\linear_regression_h01.joblib,2020-01-01 01:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00
+4,21,25513,8437,models\linear_regression\linear_regression_h04.joblib,2020-01-01 04:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00
+12,20,25505,8437,models\linear_regression\linear_regression_h12.joblib,2020-01-01 12:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00
+24,20,25493,8437,models\linear_regression\linear_regression_h24.joblib,2020-01-02 00:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00

@@ -1,0 +1,162 @@
+{
+  "target_column": "y",
+  "candidate_feature_columns": [
+    "target_hour_sin",
+    "target_hour_cos",
+    "target_dayofweek_sin",
+    "target_dayofweek_cos",
+    "target_month_sin",
+    "target_month_cos",
+    "target_is_weekend",
+    "o3_at_origin",
+    "o3_lag_1h",
+    "o3_lag_2h",
+    "o3_lag_3h",
+    "o3_lag_6h",
+    "o3_lag_12h",
+    "o3_prev_day_same_hour",
+    "o3_target_lag_48h",
+    "o3_roll_mean_6h",
+    "o3_roll_mean_24h",
+    "o3_roll_std_6h",
+    "o3_roll_std_24h",
+    "o3_roll_max_24h",
+    "o3_roll_missing_ratio_24h"
+  ],
+  "calendar_feature_columns": [
+    "target_hour_sin",
+    "target_hour_cos",
+    "target_dayofweek_sin",
+    "target_dayofweek_cos",
+    "target_month_sin",
+    "target_month_cos",
+    "target_is_weekend"
+  ],
+  "origin_value_feature_columns": [
+    "o3_at_origin"
+  ],
+  "origin_lag_feature_columns": [
+    "o3_lag_1h",
+    "o3_lag_2h",
+    "o3_lag_3h",
+    "o3_lag_6h",
+    "o3_lag_12h"
+  ],
+  "target_lag_feature_columns": [
+    "o3_prev_day_same_hour",
+    "o3_target_lag_48h"
+  ],
+  "rolling_feature_columns": [
+    "o3_roll_mean_6h",
+    "o3_roll_mean_24h",
+    "o3_roll_std_6h",
+    "o3_roll_std_24h",
+    "o3_roll_max_24h"
+  ],
+  "quality_feature_columns": [
+    "o3_roll_missing_ratio_24h"
+  ],
+  "feature_columns_by_horizon": {
+    "1": [
+      "target_hour_sin",
+      "target_hour_cos",
+      "target_dayofweek_sin",
+      "target_dayofweek_cos",
+      "target_month_sin",
+      "target_month_cos",
+      "target_is_weekend",
+      "o3_at_origin",
+      "o3_lag_1h",
+      "o3_lag_2h",
+      "o3_lag_3h",
+      "o3_lag_6h",
+      "o3_lag_12h",
+      "o3_prev_day_same_hour",
+      "o3_target_lag_48h",
+      "o3_roll_mean_6h",
+      "o3_roll_mean_24h",
+      "o3_roll_std_6h",
+      "o3_roll_std_24h",
+      "o3_roll_max_24h",
+      "o3_roll_missing_ratio_24h"
+    ],
+    "4": [
+      "target_hour_sin",
+      "target_hour_cos",
+      "target_dayofweek_sin",
+      "target_dayofweek_cos",
+      "target_month_sin",
+      "target_month_cos",
+      "target_is_weekend",
+      "o3_at_origin",
+      "o3_lag_1h",
+      "o3_lag_2h",
+      "o3_lag_3h",
+      "o3_lag_6h",
+      "o3_lag_12h",
+      "o3_prev_day_same_hour",
+      "o3_target_lag_48h",
+      "o3_roll_mean_6h",
+      "o3_roll_mean_24h",
+      "o3_roll_std_6h",
+      "o3_roll_std_24h",
+      "o3_roll_max_24h",
+      "o3_roll_missing_ratio_24h"
+    ],
+    "12": [
+      "target_hour_sin",
+      "target_hour_cos",
+      "target_dayofweek_sin",
+      "target_dayofweek_cos",
+      "target_month_sin",
+      "target_month_cos",
+      "target_is_weekend",
+      "o3_at_origin",
+      "o3_lag_1h",
+      "o3_lag_2h",
+      "o3_lag_3h",
+      "o3_lag_6h",
+      "o3_lag_12h",
+      "o3_target_lag_48h",
+      "o3_roll_mean_6h",
+      "o3_roll_mean_24h",
+      "o3_roll_std_6h",
+      "o3_roll_std_24h",
+      "o3_roll_max_24h",
+      "o3_roll_missing_ratio_24h"
+    ],
+    "24": [
+      "target_hour_sin",
+      "target_hour_cos",
+      "target_dayofweek_sin",
+      "target_dayofweek_cos",
+      "target_month_sin",
+      "target_month_cos",
+      "target_is_weekend",
+      "o3_at_origin",
+      "o3_lag_1h",
+      "o3_lag_2h",
+      "o3_lag_3h",
+      "o3_lag_6h",
+      "o3_lag_12h",
+      "o3_target_lag_48h",
+      "o3_roll_mean_6h",
+      "o3_roll_mean_24h",
+      "o3_roll_std_6h",
+      "o3_roll_std_24h",
+      "o3_roll_max_24h",
+      "o3_roll_missing_ratio_24h"
+    ]
+  },
+  "dropped_duplicate_features_by_horizon": {
+    "1": {},
+    "4": {},
+    "12": {
+      "o3_prev_day_same_hour": "o3_lag_12h"
+    },
+    "24": {
+      "o3_prev_day_same_hour": "o3_at_origin"
+    }
+  },
+  "n_candidate_features": 21
+}

@@ -1,0 +1,5 @@
+horizon,n_rows,min_source_lag_h,max_source_lag_h,all_sources_available
+1,50941,23.0,23.0,True
+4,50938,20.0,20.0,True
+12,50930,12.0,12.0,True
+24,50918,0.0,0.0,True

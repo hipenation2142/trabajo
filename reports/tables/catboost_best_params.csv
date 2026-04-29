@@ -1,0 +1,5 @@
+model,horizon,selected_config_id,selected_n_iterations,mean_cv_mae,mean_cv_rmse,std_cv_rmse,n_internal_folds,params_json
+catboost,1,base,345,5.8844780816575195,8.002451173297578,0.5773244534307276,3,"{""config_id"": ""base"", ""learning_rate"": 0.05, ""depth"": 6, ""l2_leaf_reg"": 3.0, ""random_strength"": 1.0, ""bootstrap_type"": ""Bayesian"", ""bagging_temperature"": 0.5}"
+catboost,4,base,276,10.76261167142613,13.727851890390987,1.3136145451200036,3,"{""config_id"": ""base"", ""learning_rate"": 0.05, ""depth"": 6, ""l2_leaf_reg"": 3.0, ""random_strength"": 1.0, ""bootstrap_type"": ""Bayesian"", ""bagging_temperature"": 0.5}"
+catboost,12,regularized,475,12.77816926248822,16.08110628526241,2.055364411951644,3,"{""config_id"": ""regularized"", ""learning_rate"": 0.04, ""depth"": 6, ""l2_leaf_reg"": 10.0, ""random_strength"": 2.0, ""bootstrap_type"": ""Bayesian"", ""bagging_temperature"": 1.0}"
+catboost,24,base,105,13.499399907411053,16.78407907063965,2.0800670591650614,3,"{""config_id"": ""base"", ""learning_rate"": 0.05, ""depth"": 6, ""l2_leaf_reg"": 3.0, ""random_strength"": 1.0, ""bootstrap_type"": ""Bayesian"", ""bagging_temperature"": 0.5}"

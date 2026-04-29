@@ -1,0 +1,5 @@
+model,horizon,n_features,selected_config_id,selected_n_estimators,n_train,n_validation,model_path,train_target_min,train_target_max,validation_target_min,validation_target_max
+lightgbm,1,21,small_leaves,404,25516,8437,models\lightgbm\lightgbm_h01.joblib,2020-01-01 01:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00
+lightgbm,4,21,small_leaves,311,25513,8437,models\lightgbm\lightgbm_h04.joblib,2020-01-01 04:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00
+lightgbm,12,20,regularized,113,25505,8437,models\lightgbm\lightgbm_h12.joblib,2020-01-01 12:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00
+lightgbm,24,20,regularized,96,25493,8437,models\lightgbm\lightgbm_h24.joblib,2020-01-02 00:00:00,2022-12-31 23:00:00,2024-01-01,2024-12-31 23:00:00

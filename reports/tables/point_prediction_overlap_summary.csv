@@ -1,0 +1,17 @@
+model,model_display,horizon,n_available_validation_targets,n_common_validation_targets,common_pct_of_available
+baseline_seasonal_naive,Modelo base ingenuo estacional,1,8265,8265,100.0
+catboost,CatBoost,1,8437,8265,97.96136067322509
+lightgbm,LightGBM,1,8437,8265,97.96136067322509
+linear_regression,Regresión lineal,1,8437,8265,97.96136067322509
+baseline_seasonal_naive,Modelo base ingenuo estacional,4,8265,8265,100.0
+catboost,CatBoost,4,8437,8265,97.96136067322509
+lightgbm,LightGBM,4,8437,8265,97.96136067322509
+linear_regression,Regresión lineal,4,8437,8265,97.96136067322509
+baseline_seasonal_naive,Modelo base ingenuo estacional,12,8265,8265,100.0
+catboost,CatBoost,12,8437,8265,97.96136067322509
+lightgbm,LightGBM,12,8437,8265,97.96136067322509
+linear_regression,Regresión lineal,12,8437,8265,97.96136067322509
+baseline_seasonal_naive,Modelo base ingenuo estacional,24,8265,8265,100.0
+catboost,CatBoost,24,8437,8265,97.96136067322509
+lightgbm,LightGBM,24,8437,8265,97.96136067322509
+linear_regression,Regresión lineal,24,8437,8265,97.96136067322509

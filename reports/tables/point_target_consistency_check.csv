@@ -1,0 +1,5 @@
+horizon,n_common_targets,max_abs_diff_y_true,is_consistent
+1,8265,0.0,True
+4,8265,0.0,True
+12,8265,0.0,True
+24,8265,0.0,True

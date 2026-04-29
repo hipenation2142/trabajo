@@ -1,0 +1,22 @@
+feature,family,uses_o3_history,description
+target_hour_sin,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+target_hour_cos,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+target_dayofweek_sin,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+target_dayofweek_cos,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+target_month_sin,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+target_month_cos,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+target_is_weekend,calendario,False,Variable de calendario del instante objetivo con codificación cíclica o indicador de fin de semana.
+o3_at_origin,valor_origen,True,Valor de O3 observado en el origen de predicción t. Es información disponible antes de predecir y_{t+h}.
+o3_lag_1h,retardo_reciente,True,Retardo de O3 calculado respecto al origen de predicción.
+o3_lag_2h,retardo_reciente,True,Retardo de O3 calculado respecto al origen de predicción.
+o3_lag_3h,retardo_reciente,True,Retardo de O3 calculado respecto al origen de predicción.
+o3_lag_6h,retardo_reciente,True,Retardo de O3 calculado respecto al origen de predicción.
+o3_lag_12h,retardo_reciente,True,Retardo de O3 calculado respecto al origen de predicción.
+o3_prev_day_same_hour,retardo_diario_objetivo,True,Retardo diario de O3 alineado con el instante objetivo y construido sin usar información futura.
+o3_target_lag_48h,retardo_diario_objetivo,True,Retardo diario de O3 alineado con el instante objetivo y construido sin usar información futura.
+o3_roll_mean_6h,ventana_movil,True,Resumen móvil calculado con valores de O3 disponibles hasta el origen de predicción.
+o3_roll_mean_24h,ventana_movil,True,Resumen móvil calculado con valores de O3 disponibles hasta el origen de predicción.
+o3_roll_std_6h,ventana_movil,True,Resumen móvil calculado con valores de O3 disponibles hasta el origen de predicción.
+o3_roll_std_24h,ventana_movil,True,Resumen móvil calculado con valores de O3 disponibles hasta el origen de predicción.
+o3_roll_max_24h,ventana_movil,True,Resumen móvil calculado con valores de O3 disponibles hasta el origen de predicción.
+o3_roll_missing_ratio_24h,calidad_ventana,True,Proporción de valores ausentes en la ventana reciente de 24 horas.

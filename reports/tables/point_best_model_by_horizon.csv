@@ -1,0 +1,5 @@
+horizon,best_model_mae,best_model_mae_display,best_mae,best_model_rmse,best_model_rmse_display,best_rmse
+1,catboost,CatBoost,6.2788618574810116,catboost,CatBoost,8.599574688933261
+4,catboost,CatBoost,11.576449872842263,catboost,CatBoost,14.690999955822496
+12,catboost,CatBoost,13.601338794592245,catboost,CatBoost,17.022168463165343
+24,catboost,CatBoost,13.989617308708503,catboost,CatBoost,17.463910874661195
