@@ -1,0 +1,13 @@
+model,model_display,horizon,n_intervals,target_start,target_end,missing_y_pct,missing_lower_pct,missing_upper_pct
+catboost,CatBoost,1,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,1,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+linear_regression,Regresión lineal,1,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+catboost,CatBoost,4,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,4,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+linear_regression,Regresión lineal,4,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+catboost,CatBoost,12,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,12,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+linear_regression,Regresión lineal,12,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+catboost,CatBoost,24,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,24,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+linear_regression,Regresión lineal,24,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0

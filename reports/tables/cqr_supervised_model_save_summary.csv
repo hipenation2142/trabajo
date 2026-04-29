@@ -1,0 +1,13 @@
+model,horizon,model_path,model_saved,save_error
+catboost,1,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h01.joblib,True,
+catboost,4,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h04.joblib,True,
+catboost,12,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h12.joblib,True,
+catboost,24,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h24.joblib,True,
+lightgbm,1,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h01.joblib,True,
+lightgbm,4,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h04.joblib,True,
+lightgbm,12,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h12.joblib,True,
+lightgbm,24,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h24.joblib,True,
+linear_regression,1,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h01.joblib,True,
+linear_regression,4,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h04.joblib,True,
+linear_regression,12,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h12.joblib,True,
+linear_regression,24,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h24.joblib,True,

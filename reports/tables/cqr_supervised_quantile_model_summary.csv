@@ -1,0 +1,29 @@
+model,model_display,horizon,role,model_path
+catboost,CatBoost,1,multiquantile,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h01_multiquantile.joblib
+lightgbm,LightGBM,1,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h01_lower.joblib
+lightgbm,LightGBM,1,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h01_median.joblib
+lightgbm,LightGBM,1,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h01_upper.joblib
+linear_regression,Regresión lineal,1,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h01_lower.joblib
+linear_regression,Regresión lineal,1,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h01_median.joblib
+linear_regression,Regresión lineal,1,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h01_upper.joblib
+catboost,CatBoost,4,multiquantile,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h04_multiquantile.joblib
+lightgbm,LightGBM,4,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h04_lower.joblib
+lightgbm,LightGBM,4,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h04_median.joblib
+lightgbm,LightGBM,4,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h04_upper.joblib
+linear_regression,Regresión lineal,4,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h04_lower.joblib
+linear_regression,Regresión lineal,4,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h04_median.joblib
+linear_regression,Regresión lineal,4,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h04_upper.joblib
+catboost,CatBoost,12,multiquantile,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h12_multiquantile.joblib
+lightgbm,LightGBM,12,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h12_lower.joblib
+lightgbm,LightGBM,12,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h12_median.joblib
+lightgbm,LightGBM,12,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h12_upper.joblib
+linear_regression,Regresión lineal,12,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h12_lower.joblib
+linear_regression,Regresión lineal,12,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h12_median.joblib
+linear_regression,Regresión lineal,12,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h12_upper.joblib
+catboost,CatBoost,24,multiquantile,c:\trabajo_github\models\cqr_mapie\cqr_mapie_catboost_h24_multiquantile.joblib
+lightgbm,LightGBM,24,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h24_lower.joblib
+lightgbm,LightGBM,24,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h24_median.joblib
+lightgbm,LightGBM,24,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_lightgbm_h24_upper.joblib
+linear_regression,Regresión lineal,24,lower,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h24_lower.joblib
+linear_regression,Regresión lineal,24,median,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h24_median.joblib
+linear_regression,Regresión lineal,24,upper,c:\trabajo_github\models\cqr_mapie\cqr_mapie_linear_regression_h24_upper.joblib

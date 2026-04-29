@@ -1,0 +1,5 @@
+model,model_display,method,horizon,alpha,nominal_coverage,n_calibration,k_order,q_hat,mean_abs_residual_calibration,median_abs_residual_calibration,max_abs_residual_calibration
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,1,0.2,0.8,8474,6780,27.0,16.18338447014397,13.0,85.0
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,4,0.2,0.8,8474,6780,27.0,16.18338447014397,13.0,85.0
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,12,0.2,0.8,8474,6780,27.0,16.18338447014397,13.0,85.0
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,24,0.2,0.8,8474,6780,27.0,16.18338447014397,13.0,85.0

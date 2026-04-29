@@ -1,0 +1,9 @@
+model,model_display,method,horizon,split,n_rows,target_start,target_end,missing_y_pct,missing_lower_pct,missing_upper_pct
+catboost,CatBoost,enbpi,1,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,enbpi,1,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+catboost,CatBoost,enbpi,4,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,enbpi,4,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+catboost,CatBoost,enbpi,12,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,enbpi,12,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+catboost,CatBoost,enbpi,24,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0
+lightgbm,LightGBM,enbpi,24,validation,8437,2024-01-01,2024-12-31 23:00:00,0.0,0.0,0.0

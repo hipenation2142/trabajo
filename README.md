@@ -1,6 +1,6 @@
 # TFG - Predicción horaria de ozono troposférico (O3) en el distrito del Eixample de Barcelona
 
-Este es un repositorio temporal de desarrollo de mi Trabajo de Fin de Grado sobre la predicción horaria de ozono troposférico (O3) en la estación del Eixample de Barcelona.
+Este es el repositorio del Trabajo de Fin de Grado de Francisco Manuel González Pérez, supervisado por la Dra. María Moreno de Castro, sobre la predicción horaria de ozono troposférico (O3) en la estación del Eixample de Barcelona.
 
 ## Objetivo del proyecto
 
@@ -57,7 +57,7 @@ Métricas de intervalos:
 
 - Cobertura empírica.
 - Anchura media.
-- Interval score / Winkler score.
+- Interval score.
 
 ## Explicabilidad
 
@@ -75,17 +75,20 @@ data/
   raw/              Datos brutos locales.
   processed/        Datos procesados locales.
 
+models/
+  catboost/         Datos de CatBoost
+  cqr/              Datos sobre la aplicación de la técnica CQR
+  cqr_mapie/        Datos sobre la aplicación de la técnica CQR mediante MAPIE
+  enbpi/            Datos sobre la aplicación de EnbPI
+  lightgbm/         Datos de LightGBM
+  linear_regression/Datos de la regresión lineal
+
 notebooks/          Notebooks de análisis exploratorio y desarrollo de prototipos.
 
 reports/
   figures/          Figuras generadas para la memoria.
-
-src/
-  data/             Lectura, limpieza y partición de datos.
-  features/         Ingeniería de características.
-  models/           Entrenamiento de los modelos.
-  uncertainty/      Intervalos de predicción.
-  evaluation/       Cálculo de métricas y comparación de resultados.
-  explainability/   Explicabilidad de los modelos.
+  intervals/        Datos de los intervalos calculados.
+  predictions/      Datos de las predicciones puntuales efectuadas.
+  tables/           Tablas generadas por los notebooks.
 
 scripts/            Scripts ejecutables del pipeline.

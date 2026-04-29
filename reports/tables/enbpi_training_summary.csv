@@ -1,0 +1,9 @@
+model,model_display,horizon,n_train,n_calibration,n_validation,n_bootstraps,block_length,selected_config_id,n_iterations,n_features,n_oob_residuals_initial,model_artifact
+lightgbm,LightGBM,1,25516,8607,8437,20,24,small_leaves,404,21,25516,c:\trabajo_github\models\enbpi\enbpi_lightgbm_h01.joblib
+lightgbm,LightGBM,4,25513,8607,8437,20,24,small_leaves,311,21,25508,c:\trabajo_github\models\enbpi\enbpi_lightgbm_h04.joblib
+lightgbm,LightGBM,12,25505,8607,8437,20,24,regularized,113,20,25505,c:\trabajo_github\models\enbpi\enbpi_lightgbm_h12.joblib
+lightgbm,LightGBM,24,25493,8607,8437,20,24,regularized,96,20,25493,c:\trabajo_github\models\enbpi\enbpi_lightgbm_h24.joblib
+catboost,CatBoost,1,25516,8607,8437,20,24,base,345,21,25514,c:\trabajo_github\models\enbpi\enbpi_catboost_h01.joblib
+catboost,CatBoost,4,25513,8607,8437,20,24,base,276,21,25512,c:\trabajo_github\models\enbpi\enbpi_catboost_h04.joblib
+catboost,CatBoost,12,25505,8607,8437,20,24,regularized,475,20,25501,c:\trabajo_github\models\enbpi\enbpi_catboost_h12.joblib
+catboost,CatBoost,24,25493,8607,8437,20,24,base,105,20,25489,c:\trabajo_github\models\enbpi\enbpi_catboost_h24.joblib

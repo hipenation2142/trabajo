@@ -1,0 +1,9 @@
+model,model_display,horizon,split,n_rows,n_evaluable,target_start,target_end,missing_y_pct,missing_pred_pct
+baseline_seasonal_naive,Modelo base ingenuo estacional,1,calibration,8607,8474,2023-01-01,2023-12-31 23:00:00,0.0,1.545253863134658
+baseline_seasonal_naive,Modelo base ingenuo estacional,4,calibration,8607,8474,2023-01-01,2023-12-31 23:00:00,0.0,1.545253863134658
+baseline_seasonal_naive,Modelo base ingenuo estacional,12,calibration,8607,8474,2023-01-01,2023-12-31 23:00:00,0.0,1.545253863134658
+baseline_seasonal_naive,Modelo base ingenuo estacional,24,calibration,8607,8474,2023-01-01,2023-12-31 23:00:00,0.0,1.545253863134658
+baseline_seasonal_naive,Modelo base ingenuo estacional,1,validation,8437,8265,2024-01-01,2024-12-31 23:00:00,0.0,2.03863932677492
+baseline_seasonal_naive,Modelo base ingenuo estacional,4,validation,8437,8265,2024-01-01,2024-12-31 23:00:00,0.0,2.03863932677492
+baseline_seasonal_naive,Modelo base ingenuo estacional,12,validation,8437,8265,2024-01-01,2024-12-31 23:00:00,0.0,2.03863932677492
+baseline_seasonal_naive,Modelo base ingenuo estacional,24,validation,8437,8265,2024-01-01,2024-12-31 23:00:00,0.0,2.03863932677492

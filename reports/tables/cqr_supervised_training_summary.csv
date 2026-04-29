@@ -1,0 +1,13 @@
+quantile_strategy,selected_config_id,n_estimators_or_iterations,model,model_display,horizon,n_train,n_features
+catboost_multiquantile,base,345.0,catboost,CatBoost,1,25516,21
+three_independent_quantile_models,small_leaves,404.0,lightgbm,LightGBM,1,25516,21
+three_independent_quantile_models,linear_quantile_regression,,linear_regression,Regresión lineal,1,25516,21
+catboost_multiquantile,base,276.0,catboost,CatBoost,4,25513,21
+three_independent_quantile_models,small_leaves,311.0,lightgbm,LightGBM,4,25513,21
+three_independent_quantile_models,linear_quantile_regression,,linear_regression,Regresión lineal,4,25513,21
+catboost_multiquantile,regularized,475.0,catboost,CatBoost,12,25505,20
+three_independent_quantile_models,regularized,113.0,lightgbm,LightGBM,12,25505,20
+three_independent_quantile_models,linear_quantile_regression,,linear_regression,Regresión lineal,12,25505,20
+catboost_multiquantile,base,105.0,catboost,CatBoost,24,25493,20
+three_independent_quantile_models,regularized,96.0,lightgbm,LightGBM,24,25493,20
+three_independent_quantile_models,linear_quantile_regression,,linear_regression,Regresión lineal,24,25493,20

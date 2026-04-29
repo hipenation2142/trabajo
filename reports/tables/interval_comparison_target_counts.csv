@@ -1,0 +1,17 @@
+horizon,model,model_display,method,label,n_available,target_start,target_end,n_common_targets,common_target_start,common_target_end,pct_common_over_available
+1,baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,Baseline + split conformal,8265,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,100.0
+1,catboost,CatBoost,cqr_mapie,CatBoost + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+1,lightgbm,LightGBM,cqr_mapie,LightGBM + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+1,linear_regression,Regresión lineal,cqr_mapie,Regresión lineal + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+4,baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,Baseline + split conformal,8265,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,100.0
+4,catboost,CatBoost,cqr_mapie,CatBoost + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+4,lightgbm,LightGBM,cqr_mapie,LightGBM + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+4,linear_regression,Regresión lineal,cqr_mapie,Regresión lineal + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+12,baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,Baseline + split conformal,8265,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,100.0
+12,catboost,CatBoost,cqr_mapie,CatBoost + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+12,lightgbm,LightGBM,cqr_mapie,LightGBM + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+12,linear_regression,Regresión lineal,cqr_mapie,Regresión lineal + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+24,baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,Baseline + split conformal,8265,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,100.0
+24,catboost,CatBoost,cqr_mapie,CatBoost + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+24,lightgbm,LightGBM,cqr_mapie,LightGBM + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507
+24,linear_regression,Regresión lineal,cqr_mapie,Regresión lineal + CQR,8437,2024-01-01,2024-12-31 23:00:00,8265,2024-01-01,2024-12-31 23:00:00,97.96136067322507

@@ -1,0 +1,5 @@
+model,model_display,method,horizon,alpha,nominal_coverage,n_validation,empirical_coverage,coverage_error,mean_width,median_width,mean_interval_score,median_interval_score,miss_lower_pct,miss_upper_pct,mean_q_hat
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,1,0.2,0.8,8265,0.7996370235934664,-0.0003629764065335994,54.0,54.0,79.19540229885058,54.0,10.235934664246823,9.800362976406534,27.0
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,4,0.2,0.8,8265,0.7996370235934664,-0.0003629764065335994,54.0,54.0,79.19540229885058,54.0,10.235934664246823,9.800362976406534,27.0
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,12,0.2,0.8,8265,0.7996370235934664,-0.0003629764065335994,54.0,54.0,79.19540229885058,54.0,10.235934664246823,9.800362976406534,27.0
+baseline_seasonal_naive,Modelo base ingenuo estacional,split_conformal,24,0.2,0.8,8265,0.7996370235934664,-0.0003629764065335994,54.0,54.0,79.19540229885058,54.0,10.235934664246823,9.800362976406534,27.0
