@@ -1,0 +1,13 @@
+horizon,model,model_label,n_samples,prelim_lower_col,prelim_upper_col,qr_coverage,qr_mean_width,qr_mean_interval_score
+1,linear_regression,Regresión lineal,8265,lower_prelim,upper_prelim,0.7923774954627949,20.899195957171663,32.489107766484224
+1,lightgbm,LightGBM,8265,lower_prelim,upper_prelim,0.7719298245614035,18.833067775803347,30.007856114263525
+1,catboost,CatBoost,8265,lower_prelim,upper_prelim,0.7699939503932245,18.57190502056831,29.806916483955103
+4,linear_regression,Regresión lineal,8265,lower_prelim,upper_prelim,0.7924984875983061,40.54470734021502,55.09617320810249
+4,lightgbm,LightGBM,8265,lower_prelim,upper_prelim,0.7525710828796128,34.89106288636243,51.07279524683448
+4,catboost,CatBoost,8265,lower_prelim,upper_prelim,0.7395039322444041,33.13238855150992,50.346283413559284
+12,linear_regression,Regresión lineal,8265,lower_prelim,upper_prelim,0.7891107078039927,45.01291434653439,60.48833261905471
+12,lightgbm,LightGBM,8265,lower_prelim,upper_prelim,0.7345432546884453,39.8827591445223,58.80514042475691
+12,catboost,CatBoost,8265,lower_prelim,upper_prelim,0.7171203871748336,37.63908460288708,58.4671223360023
+24,linear_regression,Regresión lineal,8265,lower_prelim,upper_prelim,0.7834240774349668,45.582361013917044,61.81928603954491
+24,lightgbm,LightGBM,8265,lower_prelim,upper_prelim,0.7307924984875983,41.145025145255495,60.48259778189208
+24,catboost,CatBoost,8265,lower_prelim,upper_prelim,0.7531760435571688,41.736321686223924,59.44853809336318
