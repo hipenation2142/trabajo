@@ -1,0 +1,2 @@
+window_idx,start,end,n_hours,observed_mean,observed_p90,observed_max,central_mae,prelim_coverage,prelim_mean_width,prelim_mean_interval_score,calibrated_coverage,calibrated_mean_width,calibrated_mean_interval_score,distance_to_target_interval_score,coverage_abs_error
+78,2024-08-07,2024-08-13 23:00:00,168,66.00595238095238,93.60000000000002,120.0,11.055052485582289,0.7380952380952381,30.341596250228044,49.92439897903261,0.7658730158730159,32.08510582032521,49.486835618846676,0.2738336338118401,0.03412698412698412

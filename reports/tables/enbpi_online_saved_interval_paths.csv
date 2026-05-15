@@ -1,0 +1,17 @@
+model,horizon,path,n_rows,block_config_id,n_blocks
+baseline_seasonal_naive,1,reports\intervals\enbpi_online_baseline_seasonal_naive_h01.parquet,8265,annual_approx,4
+baseline_seasonal_naive,4,reports\intervals\enbpi_online_baseline_seasonal_naive_h04.parquet,8265,annual_approx,4
+baseline_seasonal_naive,12,reports\intervals\enbpi_online_baseline_seasonal_naive_h12.parquet,8265,annual_approx,4
+baseline_seasonal_naive,24,reports\intervals\enbpi_online_baseline_seasonal_naive_h24.parquet,8265,annual_approx,4
+catboost,1,reports\intervals\enbpi_online_catboost_h01.parquet,8437,annual_approx,4
+catboost,4,reports\intervals\enbpi_online_catboost_h04.parquet,8437,quarterly_approx,16
+catboost,12,reports\intervals\enbpi_online_catboost_h12.parquet,8437,annual_approx,4
+catboost,24,reports\intervals\enbpi_online_catboost_h24.parquet,8437,annual_approx,4
+lightgbm,1,reports\intervals\enbpi_online_lightgbm_h01.parquet,8437,quarterly_approx,16
+lightgbm,4,reports\intervals\enbpi_online_lightgbm_h04.parquet,8437,quarterly_approx,16
+lightgbm,12,reports\intervals\enbpi_online_lightgbm_h12.parquet,8437,annual_approx,4
+lightgbm,24,reports\intervals\enbpi_online_lightgbm_h24.parquet,8437,quarterly_approx,16
+linear_regression,1,reports\intervals\enbpi_online_linear_regression_h01.parquet,8437,annual_approx,4
+linear_regression,4,reports\intervals\enbpi_online_linear_regression_h04.parquet,8437,annual_approx,4
+linear_regression,12,reports\intervals\enbpi_online_linear_regression_h12.parquet,8437,quarterly_approx,16
+linear_regression,24,reports\intervals\enbpi_online_linear_regression_h24.parquet,8437,quarterly_approx,16
