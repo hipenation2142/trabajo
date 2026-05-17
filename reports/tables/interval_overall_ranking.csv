@@ -2,4 +2,4 @@ model,label,mean_interval_score_across_horizons,mean_width_across_horizons,mean_
 catboost,CatBoost + CQR,49.10557097476749,35.21947085665769,0.7916515426497278,1
 lightgbm,LightGBM + CQR,49.768136843672096,35.85729278608646,0.7921355111917725,2
 linear_regression,Regresión lineal + CQR,52.462065627477195,38.37056706714424,0.7941318814277072,3
-baseline_seasonal_naive,Baseline + split conformal,79.19540229885058,54.0,0.7996370235934664,4
+baseline_seasonal_naive,Modelo base + SC,79.19540229885058,54.0,0.7996370235934664,4
